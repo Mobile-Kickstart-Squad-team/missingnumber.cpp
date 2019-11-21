@@ -1,4 +1,4 @@
-// C++ program for implementation of Bubble sort  
+// C++ program for finding the missing number in a seies of numbers in an array
 #include <bits/stdc++.h> 
 using namespace std; 
     
@@ -14,10 +14,9 @@ void Missing(int arr[], int n)
               m = arr[j]+1;
              cout<<"The missing number is : ";
              cout<<m;
-            
+         
 }        
  
-  
 // Driver code  
 int main()  
 {  
